@@ -1,21 +1,36 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# ༄༅། ཚིག་མཛོད་ཆེན་པོ། — Tibetan Dictionary
 
-# Run and deploy your AI Studio app
+A clean, fast, and 100% free Android dictionary app built with Jetpack Compose. Handles Tibetan-to-Tibetan, Tibetan-to-English, and English lookups seamlessly with a slick Material 3 UI and a vertical word-of-the-day deck.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/3b3a1382-c98d-4410-a9e7-1febdad70786
+## What's Inside
 
-## Run Locally
+* **Smart Search:** Search Tibetan or English with auto-script detection. Type and go.
+* **Daily Word Deck:** Vertical swipe card deck so it doesn't mess with your tab navigation. 
+* **Recent Searches:** Keeps track of what you looked up last so you don't have to retype it.
+* **Easy on the Eyes:** Adjust text sizes on the fly for better reading of classical and modern Tibetan scripts.
+* **TTS Support:** Pronounce English words with a quick tap.
+* **No BS:** Zero ads, zero trackers, completely free and open source.
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+---
 
+## Tech Stack
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+* **UI:** Jetpack Compose + Material 3
+* **Architecture:** MVVM with Kotlin Coroutines & Flows
+* **Database:** Room / SQLite
+
+---
+
+## Shoutouts & Data Source
+
+Big respect to the open-source community making Tibetan digital resources available:
+* Dictionary data inspired by Venerable Lobsang Monlam's open-source Tibetan-English project.
+* Tibetan Machine Uni font copyright © 2000 Tony Duff; portions © 2004 Tibetan and Himalayan Library.
+
+---
+
+## License
+
+Free and open-source under the **GNU General Public License (GPL) v2.0** (or later). Check the `LICENSE` file for the details.
