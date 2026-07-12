@@ -1,0 +1,6 @@
+{
+  "name": "ཚིག་མཛོད་ཆེན་པོ་",
+  "description": "The Great Tibetan Dictionary Application",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
